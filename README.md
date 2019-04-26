@@ -35,7 +35,8 @@
     alias lbm-nouveau off
 
 #### 重新生成 kernel initramfs
-sudo update-initramfs –u
+
+    sudo update-initramfs –u
 
 #### 禁 Ubuntu自带开源驱动nouveau，写入后 After above 重启系统 - Disabling Nouveau
     
@@ -214,4 +215,4 @@ sudo gedit ~/.bashrc
 
 # Note
 
-设置的方法参照以下方法 https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup
+按照指导参照以下方法 https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup
