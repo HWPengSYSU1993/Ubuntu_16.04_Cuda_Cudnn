@@ -211,3 +211,6 @@ sudo gedit ~/.bashrc
     Section "Device"
     Identifier "Configured Video Device"
     EndSection
+
+#Note
+设置的方法参照以下方法 https://github.com/yehengchen/Ubuntu-16.04-Deep-Learning-Environment-Setup
