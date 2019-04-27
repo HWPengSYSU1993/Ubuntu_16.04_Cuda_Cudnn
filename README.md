@@ -24,7 +24,7 @@
 ## __2. 禁用nouveau - Disabling Nouvea__
 
 #### • 安装vim指令 
-    sudo apt install vim
+    sudo apt-get install vim
 
 #### • 新建-blacklist-nouveau.conf 输⼊指令:(Create New Text) 
 
