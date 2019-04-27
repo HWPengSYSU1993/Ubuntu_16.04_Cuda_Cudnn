@@ -32,10 +32,6 @@
 
 #### • 往文件中写⼊-input :
     blacklist nouveau
-    blacklist lbm-nouveau options
-    nouveau modeset=0
-    alias nouveau off
-    alias lbm-nouveau off
 
 #### 重新生成 kernel initramfs
 
