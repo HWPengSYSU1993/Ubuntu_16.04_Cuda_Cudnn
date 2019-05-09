@@ -90,7 +90,7 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
 
 ### Install CUDA
 
-    $ sudo ./cuda_9.0.176_384.81_linux.run --no-opengl-libs
+    $ sudo ./cuda_9.0.176_384.81_linux.run --no-opengl-libs  (or   sudo sh ./cuda_9.0.176_384.81_linux.run --no-opengl-libs)
     ...
     accept #同意安装
     n #不安装Driver，因为已安装Nvidia驱动-already installed Nvidia
