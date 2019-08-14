@@ -37,7 +37,7 @@
 
 #### 重新生成 kernel initramfs
 
-    sudo update-initramfs –u
+    sudo update-initramfs –u   (or   sudo /usr/sbin/update-initramfs -u)
 
 #### 禁 Ubuntu自带开源驱动nouveau，写入后 After above 重启系统 - Disabling Nouveau
     
