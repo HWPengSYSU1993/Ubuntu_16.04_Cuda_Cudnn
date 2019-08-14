@@ -30,7 +30,7 @@
 
     $ sudo vim /etc/modprobe.d/blacklist-nouveau.conf
 
-#### • 往文件中写⼊-input :
+#### • 往文件中写⼊-input (edit:input 'i'    save and exit vim: 'Esc' + ':wq'):
     blacklist nouveau
 
 #### 重新生成 kernel initramfs
