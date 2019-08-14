@@ -135,7 +135,7 @@ sudo gedit ~/.bashrc
      $ sudo make
      $ ./bandwidthTest
  
-## 6. 安装cuDNN - Download cuDNN 
+## 6. 安装cuDNN - Download cuDNN (.solitairetheme8)
 #### Download Version: cuDNN v7.1.4 (May 16, 2018), for CUDA 9.0 [[cuDNN Link]](https://developer.nvidia.com/rdp/cudnn-archive)
 ![cudnn](https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/cudnn.png)
 
@@ -154,6 +154,20 @@ sudo gedit ~/.bashrc
     $ sudo ln -sf libcudnn.so.7.5.0 libcudnn.so.7
     $ sudo ln -sf libcudnn.so.7 libcudnn.so 
     $ sudo ldconfig
+
+
+##    安装cudnn (.dev)  three .deb files
+
+#####step 1:
+
+sudo dpkg -i libcudnn7_7.1.4.18-1+cuda8.0_amd64.deb
+sudo dpkg -i libcudnn7-dev_7.1.4.18-1+cuda8.0_amd64.deb
+sudo dpkg -i libcudnn7-doc_7.1.4.18-1+cuda8.0_amd64.deb
+
+#####step 2 (test):
+# cudnn 版本
+cat /usr/include/x86_64-linux-gnu/cudnn_v7.h | grep CUDNN_MAJOR -A 2
+
 
 ## __7. 安装Tensorflow-gpu - Install Tensorflow-gpu__
 
