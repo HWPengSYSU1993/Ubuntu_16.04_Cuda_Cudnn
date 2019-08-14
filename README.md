@@ -32,6 +32,8 @@
 
 #### • 往文件中写⼊-input (edit:input 'i'    save and exit vim: 'Esc' + ':wq'):
     blacklist nouveau
+    
+    options nouveau modeset=0
 
 #### 重新生成 kernel initramfs
 
