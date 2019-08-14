@@ -156,16 +156,17 @@ sudo gedit ~/.bashrc
     $ sudo ldconfig
 
 
-##    安装cudnn (.dev)  three .deb files
+## 安装cudnn (.dev)  three .deb files
 
-#####step 1:
+##### step 1:
 
 sudo dpkg -i libcudnn7_7.1.4.18-1+cuda8.0_amd64.deb
+
 sudo dpkg -i libcudnn7-dev_7.1.4.18-1+cuda8.0_amd64.deb
+
 sudo dpkg -i libcudnn7-doc_7.1.4.18-1+cuda8.0_amd64.deb
 
-#####step 2 (test):
-# cudnn 版本
+##### step 2 (test): cudnn 版本
 cat /usr/include/x86_64-linux-gnu/cudnn_v7.h | grep CUDNN_MAJOR -A 2
 
 
