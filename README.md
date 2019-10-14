@@ -180,6 +180,18 @@ cat /usr/include/x86_64-linux-gnu/cudnn_v7.h | grep CUDNN_MAJOR -A 2
 ## 8. 测试 - Testing
 ![tensorflow](https://github.com/chenyeheng/Ubuntu_16.04_Deep_Learning_Environment_Setup/blob/master/img/tensorflow.png)
 
+## 8_1 mine 20191014 Uninstall cudnn (删除之前安装的cudnn)
+### method 1
+     $ rm -rf /usr/local/cuda-8.0/targets/x86_64-linux/include/cudnn.h
+     $ cd /usr/local/cuda/lib64
+     $ sudo rm libcudnn.so
+     $ sudo rm libcudnn.so.5
+     $ sudo rm libcudnn.so.5.0.5
+### method 2     
+     $ sudo rm -rf /usr/local/cuda/include/cudnn.h
+     $ sudo rm -rf /usr/local/cuda/lib64/libcudnn*
+
+
 ## 9. 常见配置问题 - Problem
 ### 登⼊界⾯死循环问题: Login loop problem
 #### 1. 进入文本界面: CTRL+ALT+F1
