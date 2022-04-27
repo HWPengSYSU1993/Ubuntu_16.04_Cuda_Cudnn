@@ -111,6 +111,8 @@ sudo gedit ~/.bashrc
 ##### 执行指令更新 .bashrc 文件 - Reload .bashrc with 
     
     $ source .bashrc
+    or
+    $ source ~/.bashrc
 
 ##### B. 安装及路径测试，查看CUDA版本 CUDA Sample Testing:
 
