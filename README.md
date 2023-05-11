@@ -52,6 +52,9 @@
 
 ## __3. 安装Nvidia驱动 - Install the Drivers__
 
+### 方法一$ sudo apt-get install nvidia-driver-525  （525是指定版本号）
+
+### 方法二
     Ctrl + Alt + F1-( Enter virtual consoles )进入tty1命令行界面 或者Ctrl + Alt + F2
     Ctrl + Alt + F7-( Return back to GUI )回到桌面系统界面
 
@@ -63,7 +66,7 @@
 
     $ sudo chmod a+x NVIDIA-Linux-x86_64-390.87.run
     $ sudo ./NVIDIA-Linux-x86_64-390.87.run -no-opengl-files -no-x-check -no-nouveau-check (Error unable to find the development tool 'cc' in your path: $sudo apt-get install build-essential)
-
+    
 #### -重点-(登录界面循环问题)
 __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安装驱动时不检查X服务 -no-nouveau-check 安装驱动时不检查nouveau模块__
   
