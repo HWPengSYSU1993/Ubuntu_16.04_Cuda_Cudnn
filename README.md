@@ -96,7 +96,9 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
 </div>
 
 ### Install CUDA
-
+#### method 1 (good)
+Installer Type: deb(local), obtain command line of installation
+#### method 2 (okey)
     $ sudo ./cuda_9.0.176_384.81_linux.run --no-opengl-libs  (or   sudo sh ./cuda_9.0.176_384.81_linux.run --no-opengl-libs)
     ...
     accept #同意安装
