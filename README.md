@@ -68,8 +68,8 @@
 __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安装驱动时不检查X服务 -no-nouveau-check 安装驱动时不检查nouveau模块__
   
 #### -安装驱动时-
-    
-    “Would you like to run the nvidia-xconfig utility to automatically update your X configuration file...”
+    1. Install nvidia’s 32-bit compatibility libraries? Choose No
+    2. “Would you like to run the nvidia-xconfig utility to automatically update your X configuration file...”
     Choose No，安装完 After above 
     $sudo reboot
 
