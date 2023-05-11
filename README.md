@@ -57,7 +57,7 @@
 
 #### 禁⽤X服务 - Kill your current X server session by typing
 
-    $ sudo service lightdm stop （如果遇到failed to stop lightdm.service: $sudo apt-get install lightdm）
+    $ sudo service lightdm stop （如果遇到failed to stop lightdm.service: $sudo apt-get install lightdm： choose lightdm）
 
 #### 给驱动run文件赋予执行权限(根据版本执行 “___” check version)
 
