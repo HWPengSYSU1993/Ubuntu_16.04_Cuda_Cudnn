@@ -52,12 +52,12 @@
 
 ## __3. 安装Nvidia驱动 - Install the Drivers__
 
-    Ctrl + Alt + F1-( Enter virtual consoles )进入tty1命令行界面 
+    Ctrl + Alt + F1-( Enter virtual consoles )进入tty1命令行界面 或者Ctrl + Alt + F2
     Ctrl + Alt + F7-( Return back to GUI )回到桌面系统界面
 
 #### 禁⽤X服务 - Kill your current X server session by typing
 
-    $ sudo service lightdm stop
+    $ sudo service lightdm stop （如果遇到failed to stop lightdm.service: $sudo apt-get install lightdm）
 
 #### 给驱动run文件赋予执行权限(根据版本执行 “___” check version)
 
