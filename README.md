@@ -72,6 +72,8 @@ __-no-opengl-files 只安装驱动文件，不安装OpenGL文件 -no-x-check 安
     2. “Would you like to run the nvidia-xconfig utility to automatically update your X configuration file...”
     Choose No，安装完 After above 
     $sudo reboot
+#### -runfile 安装的驱动卸载-
+    sudo ./NVIDIA-Linux-x86_64-390.87.run --uninstall
 
 ## __4. Nvidia驱动安装完成 - Check Driver was successfully installed__
 
