@@ -18,7 +18,8 @@
 
 ## __1. 卸载所有原驱动 - uninstall all original drivers for safety__
 
-    $ sudo apt-get purge nvidia*
+    $ sudo apt-get purge nvidia* (ubuntu20.04开机黑屏报错：hdaudio hdaudioCOD2:unable to configure disabling:     $ sudo apt-get update
+    $ sudo apt-get upgrade $ sudo apt-get purge nvidia*)
 
 
 ## __2. 禁用nouveau - Disabling Nouvea__
