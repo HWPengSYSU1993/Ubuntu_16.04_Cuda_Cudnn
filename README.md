@@ -265,6 +265,7 @@ Take note of the paths that include references to CUDA.
 2. Update the environment variables to use CUDA 11.4:
 
 $ export PATH=/usr/local/cuda-11.4/bin:$PATH
+
 $ export LD_LIBRARY_PATH=/usr/local/cuda-11.4/lib64:$LD_LIBRARY_PATH
 
 3. Verify that CUDA 11.4 is active by checking the CUDA version:
@@ -276,6 +277,7 @@ The output should indicate CUDA 11.4.
 4. To switch back to CUDA 12.0, update the environment variables to use CUDA 12.0:
 
 $ export PATH=/usr/local/cuda-12.0/bin:$PATH
+
 $ export LD_LIBRARY_PATH=/usr/local/cuda-12.0/lib64:$LD_LIBRARY_PATH
 
 Verify CUDA 12.0 is active by checking the CUDA version again.
