@@ -255,32 +255,34 @@ cat /usr/include/x86_64-linux-gnu/cudnn_v7.h | grep CUDNN_MAJOR -A 2
 ## 9. 常见配置问题 switch between cuda version - Problem
 If you want to switch between CUDA versions without the module system, you can manually update the environment variables whenever you want to switch versions. Here's a step-by-step guide:
 
-1. Determine the current environment variables set for CUDA:
+### 1. Determine the current environment variables set for CUDA:
 
 $ echo $PATH
 $ echo $LD_LIBRARY_PATH
 
 Take note of the paths that include references to CUDA.
 
-2. Update the environment variables to use CUDA 11.4:
+### 2. Update the environment variables to use CUDA 11.4:
 
 $ export PATH=/usr/local/cuda-11.4/bin:$PATH
 
 $ export LD_LIBRARY_PATH=/usr/local/cuda-11.4/lib64:$LD_LIBRARY_PATH
 
 or
- Update the environment variables to use CUDA 11.3:
+
+Update the environment variables to use CUDA 11.3:
+
 $ export PATH=/usr/local/cuda-11.3/bin:$PATH
 
 $ export LD_LIBRARY_PATH=/usr/local/cuda-11.3/lib64:$LD_LIBRARY_PATH
 
-3. Verify that CUDA 11.4 is active by checking the CUDA version:
+### 3. Verify that CUDA 11.4 is active by checking the CUDA version:
 
 $ nvcc --version
 
 The output should indicate CUDA 11.4.
 
-4. To switch back to CUDA 12.0, update the environment variables to use CUDA 12.0:
+### 4. To switch back to CUDA 12.0, update the environment variables to use CUDA 12.0:
 
 $ export PATH=/usr/local/cuda-12.0/bin:$PATH
 
