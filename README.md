@@ -268,6 +268,12 @@ $ export PATH=/usr/local/cuda-11.4/bin:$PATH
 
 $ export LD_LIBRARY_PATH=/usr/local/cuda-11.4/lib64:$LD_LIBRARY_PATH
 
+or
+ Update the environment variables to use CUDA 11.3:
+$ export PATH=/usr/local/cuda-11.3/bin:$PATH
+
+$ export LD_LIBRARY_PATH=/usr/local/cuda-11.3/lib64:$LD_LIBRARY_PATH
+
 3. Verify that CUDA 11.4 is active by checking the CUDA version:
 
 $ nvcc --version
